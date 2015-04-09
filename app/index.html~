@@ -26,7 +26,6 @@
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <h1>HOLA NEREA</h1>
 
     <!-- Standard button -->
     <button type="button" class="btn btn-default">Default</button>
