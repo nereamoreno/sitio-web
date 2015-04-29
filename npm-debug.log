@@ -1,0 +1,90 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-gulp-webapp' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 silly cache add args [ 'generator-gulp-webapp', null ]
+5 verbose cache add spec generator-gulp-webapp
+6 silly cache add parsed spec { raw: 'generator-gulp-webapp',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'generator-gulp-webapp',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed generator-gulp-webapp@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'generator-gulp-webapp', range: '*', hasData: false }
+11 silly mapToRegistry name generator-gulp-webapp
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/generator-gulp-webapp
+15 verbose addNameRange registry:https://registry.npmjs.org/generator-gulp-webapp not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/generator-gulp-webapp
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 12:53:24
+19 verbose request id 920097dd07aba967
+20 verbose etag "9OBKV5FVGX0EMPVBE6H3EM3QH"
+21 http request GET https://registry.npmjs.org/generator-gulp-webapp
+22 http 304 https://registry.npmjs.org/generator-gulp-webapp
+23 silly get cb [ 304,
+23 silly get   { date: 'Mon, 20 Apr 2015 10:53:24 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'last-modified': 'Mon, 20 Apr 2015 10:53:24 GMT',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     etag: '"9OBKV5FVGX0EMPVBE6H3EM3QH"',
+23 silly get     age: '23',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-lcy1132-LCY',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1429527204.813423,VS0,VE0',
+23 silly get     vary: 'Accept' } ]
+24 verbose etag https://registry.npmjs.org/generator-gulp-webapp from cache
+25 verbose get saving generator-gulp-webapp to /home/nerea/.npm/registry.npmjs.org/generator-gulp-webapp/.cache.json
+26 silly addNameRange number 2 { name: 'generator-gulp-webapp', range: '*', hasData: true }
+27 silly addNameRange versions [ 'generator-gulp-webapp',
+27 silly addNameRange   [ '0.0.1',
+27 silly addNameRange     '0.0.3',
+27 silly addNameRange     '0.0.4',
+27 silly addNameRange     '0.0.5',
+27 silly addNameRange     '0.0.6',
+27 silly addNameRange     '0.0.7',
+27 silly addNameRange     '0.0.8',
+27 silly addNameRange     '0.1.0',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.3.0' ] ]
+28 verbose addNamed generator-gulp-webapp@0.3.0
+29 silly addNamed semver.valid 0.3.0
+30 silly addNamed semver.validRange 0.3.0
+31 verbose stack Error: Failed to parse json
+31 verbose stack No data, empty input at 1:1
+31 verbose stack
+31 verbose stack ^
+31 verbose stack     at parseError (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:406:25)
+31 verbose stack     at parseJson (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:86:51)
+31 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:60:33
+31 verbose stack     at evalmachine.<anonymous>:334:14
+31 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+31 verbose stack     at FSReqWrap.oncomplete (evalmachine.<anonymous>:95:15)
+32 verbose cwd /home/nerea/sitio-web
+33 error Linux 3.16.0-30-generic
+34 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "generator-gulp-webapp"
+35 error node v0.12.2
+36 error npm  v2.7.4
+37 error file /home/nerea/.npm/generator-gulp-webapp/0.3.0/package/package.json
+38 error code EJSONPARSE
+39 error Failed to parse json
+39 error No data, empty input at 1:1
+39 error
+39 error ^
+40 error File: /home/nerea/.npm/generator-gulp-webapp/0.3.0/package/package.json
+41 error Failed to parse package.json data.
+41 error package.json must be actual JSON, not just JavaScript.
+41 error
+41 error This is not a bug in npm.
+41 error Tell the package author to fix their package.json file. JSON.parse
+42 verbose exit [ 1, true ]
