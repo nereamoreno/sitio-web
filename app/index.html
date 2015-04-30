@@ -14,32 +14,92 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.less">
-    <link rel="stylesheet" href="styles/misvariables.less">
-
+    <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
 
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="../bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+
+    <!--fuentes-->
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="header clearfix">
-            <nav>
-                <ul class="nav nav-pills pull-right">
-                    <li role="presentation" class="active"><a href="#">Home</a></li>
-                    <li role="presentation"><a href="#">Sobre mi</a></li>
-                    <li role="presentation"><a href="#">Servicios</a></li>
-                    <li role="presentation"><a href="#">Proyectos</a></li>
-                    <li role="presentation"><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
-            <h3 class="text-muted">Project name</h3>
-        </div>
-    </div>
     
+        <!--navegación-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#page-top">nerea moreno</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="hidden"><a href="#page-top"></a></li>
+                            <li class="page-scroll"><a href="#">Home</a></li>
+                            <li class="page-scroll"><a href="servicios.html">Servicios</a></li>
+                            <li class="page-scroll"><a href="#">Porfolio</a></li>
+                            <li class="page-scroll"><a href="#">Contácto</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+
+        <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for Slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+            <!-- Set the first background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');">
+                        <img src="img/flores2.jpg">
+                    </div>
+                    <div class="carousel-caption">
+                        <h2>Caption 1</h2>
+                    </div>
+                </div>
+
+                <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                    <div class="carousel-caption">
+                        <h2>Caption 2</h2>
+                    </div>
+                </div>
+
+                <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                    <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                    <div class="carousel-caption">
+                        <h2>Caption 3</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+            </a>
+
+        </header>
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -89,3 +149,7 @@
 </body>
 
 </html>
+
+
+
+
