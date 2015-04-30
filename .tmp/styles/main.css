@@ -1,18 +1,3 @@
-/*Background color for `<body>`.*/
-/* Global text color on `<body>`.*/
-/* Global textual link color.*/
-/* Link hover color set via `darken()` function.*/
-/* Link hover decoration.*/
-/*Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.*/
-/* Unit-less `line-height` for use in components like buttons.*/
-/* Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.*/
-/* By default, this inherits from the `<body>`.*/
-/* Dropdown link text color.*/
-/* Hover color for dropdown links.*/
-/* Hover background for dropdown links.*/
-/* Active dropdown menu item text color.*/
-/* Active dropdown menu item background color.*/
-/* Disabled dropdown menu item background color.*/
 header {
   padding-top: 120px;
 }
