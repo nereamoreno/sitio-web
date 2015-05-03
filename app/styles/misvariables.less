@@ -1,20 +1,34 @@
-@body-bg:               #ccc;
-@text-color:            #000;
+@body-bg:               #eee;
+@text-color:            @gray-light;
 
 @font-family-sans-serif:  "Montserrat", Helvetica, Arial, sans-serif;
 @font-size-base:          20px;
 @font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
 @headings-font-weight:    bold;
 
-@navbar-height:           100px;
+@navbar-height:           70px;
+@navbar-default-bg:	#2f454b;
+@navbar-default-link-color: #fff;
+@navbar-default-link-active-color: #2f454b;
+@navbar-default-link-active-bg: #abba68;
 
+@btn-default-color:              @gray-dark;
+@btn-default-bg:                 #ff9d2e; 
+@btn-default-border:             #ff9d2e;
 
-header {
-	padding-top: 120px;
+#linea {
+	width: 100%;
+	height: 2px;
+	background-color: #abba68;
+	margin-bottom: 20px;
 }
 
-#myCarousel {
-	padding-top: 120px;
+footer {
+	padding:20px;
+}
+
+body{
+	padding-top: 50px;
 }
 
 p {
@@ -22,15 +36,66 @@ p {
 
 }
 
-.subt {
-	font-size: 25px;
+
+header h1{
+	color:@gray-dark;
+}
+
+main h4{
+	color: #2f454b;
+}
+
+main h3{
+	color: #2f454b;
 }
 
 #bs-example-navbar-collapse-1 ul li a{
 	font-size: 15px;
 }
 
-.separacion {
-	padding-top: 50px;
+#proyecto ul{
+	list-style: none;
+	padding-left: 0px;
 
 }
+#proyecto ul li{
+	font-size: 15px;
+}
+
+#proyecto a{
+	padding:20px;
+	font-size: 20px;
+}
+
+#button {
+	padding: 20px;
+	font-size: 20px;
+}
+
+.separacion {
+	padding-top: 80px;
+
+}
+
+.separacion2 {
+	padding-top: 40px;
+
+}
+
+.panel-body a{
+	padding:20px;
+	font-size: 20px;
+}
+
+.verde{
+	color: #abba68; 
+}
+
+.servicios{
+	position: absolute;
+	display: block;
+	text-align: center;
+}
+
+
+
