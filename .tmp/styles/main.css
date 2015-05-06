@@ -13,8 +13,17 @@
 /* Active dropdown menu item text color.*/
 /* Active dropdown menu item background color.*/
 /* Disabled dropdown menu item background color.*/
+/*Variables less*/
+/*estilos generales*/
 body {
   padding-top: 70px;
+}
+p {
+  font-family: "Lato";
+}
+/*estilos header*/
+header h1 {
+  color: #333333;
 }
 .logo {
   font-family: 'Courgette', cursive;
@@ -22,17 +31,32 @@ body {
   padding: 0px;
   margin-top: -10px;
 }
-p {
-  font-family: "Lato";
-}
-header h1 {
-  color: #333333;
-}
+/*estilos main*/
 main h4 {
   color: #2f454b;
 }
 main h3 {
   color: #2f454b;
+}
+/*estilos para ID*/
+#minis {
+  margin-left: -20px;
+}
+#minis ul {
+  list-style: none;
+}
+#minis ul li {
+  float: left;
+  background-color: red;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+#minis ul li a {
+  width: 140px;
+  height: 100px;
+  display: block;
+  margin: 0px;
+  padding: 0px;
 }
 #bs-example-navbar-collapse-1 ul li a {
   font-size: 15px;
@@ -49,6 +73,14 @@ main h3 {
   font-family: "Lato";
   font-size: 20px;
 }
+#button {
+  padding: 20px;
+  font-size: 20px;
+}
+#textarea textarea {
+  height: 155px;
+}
+/*estilos CLASES*/
 .panel-body a {
   padding: 20px;
   font-size: 20px;
@@ -56,10 +88,6 @@ main h3 {
 .enlace {
   color: #777777;
   font-size: 15px;
-}
-#button {
-  padding: 20px;
-  font-size: 20px;
 }
 .separacion {
   padding-top: 80px;
@@ -84,8 +112,9 @@ main h3 {
   display: block;
   text-align: center;
 }
-#textarea textarea {
-  height: 155px;
+/*estilos footer*/
+footer {
+  padding: 20px;
 }
 #linea {
   width: 100%;
@@ -93,9 +122,8 @@ main h3 {
   background-color: #abba68;
   margin-bottom: 20px;
 }
-footer {
-  padding: 20px;
-}
+/*SPRITES*/
+/*social-icons*/
 .social-icons {
   background: url("../img/iconos/footer.png") no-repeat;
   list-style: none;
@@ -122,6 +150,7 @@ footer {
   height: 50px;
   background-position: 0 -150px;
 }
+/*service-icons*/
 .service-icons {
   background: url("../img/iconos/service-icons.png") no-repeat;
 }
@@ -140,6 +169,7 @@ footer {
   height: 200px;
   background-position: 0 -400px;
 }
+/*home-icons*/
 .home-icons {
   background: url("../img/iconos/home-icons.png") no-repeat;
 }
@@ -158,6 +188,7 @@ footer {
   height: 50px;
   background-position: 0 -100px;
 }
+/*programas-icons*/
 .programas-icons {
   background: url("../img/iconos/programas-icons.png") no-repeat;
 }
@@ -181,6 +212,10 @@ footer {
   width: 30px;
   height: 30px;
   background-position: 0 -91px;
+}
+video {
+  width: 100% !important;
+  height: auto !important;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
